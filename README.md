@@ -1,7 +1,6 @@
 # formly
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+Provide a great way to manage and capture data from different sources using fluid interface.
 
 ## Build & development
 
