@@ -1,11 +1,10 @@
 # formly
 
-Provide a great way to manage and capture data from different sources using fluid interface.
+formly is an open source project for provide a great way to manage and capture API. It's easy to deploy on local server.
 
-## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+# build and run
 
-## Testing
+Go to clone directory and run ./install.sh
 
-Running `grunt test` will run the unit tests with karma.
+Enjoy Formly
