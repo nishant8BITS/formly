@@ -20,10 +20,10 @@
     	});
 
         $stateProvider.
-            state('create',{
-                url: '/create',
-                templateUrl : 'core/views/createAPI.view.html',
-                controller : 'CreateApiCtrl as cc'
+            state('dashboard',{
+                url: '/dashboard',
+                templateUrl : 'core/views/dashboard.view.html',
+                controller : 'DashboardCtrl as dc'
         });   
     }
       

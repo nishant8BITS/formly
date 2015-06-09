@@ -8,8 +8,8 @@ angular.
  function HomeCtrl ($scope, $state){
  	var hc = this;
 
-	hc.createApi = function(){
-		$state.go('create');
+	hc.goDashboard = function(){
+		$state.go('dashboard');
 	}
  }
 
