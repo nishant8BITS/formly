@@ -16,8 +16,15 @@
     	   state('home',{
     			url: '/',
     			templateUrl : 'core/views/home.view.html',
-    			controller : 'HomeCtrl as vm'
+    			controller : 'HomeCtrl as hc'
     	});
+
+        $stateProvider.
+            state('create',{
+                url: '/create',
+                templateUrl : 'core/views/createAPI.view.html',
+                controller : 'CreateApiCtrl as cc'
+        });   
     }
       
 }).call(this);

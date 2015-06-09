@@ -17,6 +17,8 @@
      'ngSanitize',
      'ngTouch',
      'ui.router',
+     'ui.bootstrap',
+     'ngMaterial',
      'core'
      ]);
 }).call(this); 
