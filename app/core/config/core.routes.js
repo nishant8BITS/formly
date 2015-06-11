@@ -24,6 +24,13 @@
                 url: '/dashboard',
                 templateUrl : 'core/views/dashboard.view.html',
                 controller : 'DashboardCtrl as dc'
+        }); 
+
+        $stateProvider.
+            state('dashboard.create',{
+                url: '/create',
+                templateUrl : 'core/views/createApi.view.html',
+                controller : 'CreateAPICtrl as cc'
         });   
     }
       

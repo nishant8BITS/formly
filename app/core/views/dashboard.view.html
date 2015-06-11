@@ -8,10 +8,12 @@
     </md-sidenav>
     <md-content flex layout-padding>
         <div layout="column" layout-fill layout-align="top center">
-          Some Conetekjsk
+        </div>
+        <div layout="row">
+                   <md-button class="md-raised md-primary" ng-click="dc.createApi()"> Add API </md-button>
         </div>
         <div flex>
-
+            <ui-view></ui-view>
         </div>
     </md-content>
 </section>

@@ -5,9 +5,11 @@
 		.controller('DashboardCtrl', DashboardCtrl);
 
 		/* Create API */
-		function DashboardCtrl($scope){
+		function DashboardCtrl($scope, $state){
 			var dc = this; 
-
+			dc.createApi = function(){
+				$state.go('dashboard.create');
+			}
 		}
 
 }).call(this);
